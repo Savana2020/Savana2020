@@ -20,7 +20,6 @@ int main(void) {
 	reset(array1, n, 1);
 	reset(array2, n, 2);
 
-	printArray(array1, n);
 	printf("%s", "Selection Sort array1:\n");
 	selectionSort(array1, n);
 	printf("%s", "Selection Sort array2:\n");
